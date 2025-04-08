@@ -1,0 +1,195 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-family: "kaiti";
+}
+
+.clear {
+    clear: both;
+}
+
+.bg {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: url(../images/bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.zy {
+    padding: 20px 0px;
+}
+
+.bigbox {
+    position: relative;
+    width: 1100px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.logo {
+    padding: 10px;
+}
+
+.logo img {
+    float: left;
+    margin-right: 10px;
+}
+
+.logo p {
+    line-height: 60px;
+    font-size: 18px;
+    color: #795D49;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.logo span {
+    float: right;
+    color: #795D49;
+    line-height: 20px;
+}
+
+#nav ul li {
+    float: left;
+    background-color: #795D49;
+    line-height: 40px;
+    width: 137.5px;
+    height: 40px;
+}
+
+#nav ul li>a {
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+}
+
+#nav ul li>a:hover {
+    text-decoration: underline;
+}
+
+.nav2box:hover .nav2 {
+    display: block;
+}
+
+.nav2 {
+    position: relative;
+    display: none;
+    background-color: #a88872;
+    width: 120%;
+}
+
+.nav2 a {
+    display: block;
+    padding-left: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav2 a:hover {
+    text-decoration: underline;
+}
+
+/* 焦点图 */
+.banner {
+    font-size: 0px;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.main {
+    padding: 20px 10px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+h2 span {
+    font-size: 16px;
+    color: #666;
+}
+
+.mainimg1 {
+    float: right;
+    width: 300px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.maintxt {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-indent: 2rem;
+    line-height: 1.5rem;
+}
+
+.cjyc {
+    float: left;
+    width: 200px;
+    text-indent: 0px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cjyc:not(:nth-child(5n-4)) {
+    margin-left: 20px;
+}
+
+.cjyc img {
+    width: 100%;
+    height: 117px;
+}
+
+.footer {
+    background-color: #43352a;
+    color: #fff;
+    text-align: center;
+    line-height: 60px;
+}
+
+.maintxt h3 {
+    margin: 10px;
+}
+
+.maintxt2 {
+    text-indent: 0rem;
+}
+
+.maintxt2 ul {
+    width: 245px;
+    margin: 0 auto;
+}
+
+.maintxt2 ul li {
+    margin-bottom: 10px;
+}
+
+.list1 input {
+    width: 240px;
+    height: 30px;
+    border: 1px solid #795D49;
+    border-radius: 4px;
+}
+
+.list2 button {
+    width: 242px;
+    height: 34px;
+    background-color: #43352A;
+    color: #fff;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+
+.list1 select {
+    width: 240px;
+    height: 30px;
+    border: 1px solid #795D49;
+    border-radius: 4px;
+}
