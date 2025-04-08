@@ -1,1 +1,1 @@
-This website is for understanding Chinese medicine.
+This website is for understanding Traditional Chinese Medicine.
